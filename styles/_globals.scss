@@ -1,0 +1,38 @@
+
+@mixin mq($size) {
+    @media screen and (min-width:$size){
+        @content;
+    }
+}
+/**TEXTS*/
+.text-center{
+    text-align: center;
+}
+.text-bold{
+    font-weight: 600;
+}
+/**MARGINS*/
+.mt-1{
+    margin-top: 1rem!important;
+}
+.mt-2{
+    margin-top: 1.5rem!important;
+}
+.mt-3{
+    margin-top: 2rem!important;
+}
+.mt-4{
+    margin-top: 2.5rem!important;
+}
+.mb-1{
+    margin-bottom: 1rem!important;
+}
+.mb-2{
+    margin-bottom: 1.5rem!important;
+}
+.mb-3{
+    margin-bottom: 2rem!important;
+}
+.mb-4{
+    margin-bottom: 2.5rem!important;
+}
