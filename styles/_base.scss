@@ -1,44 +1,51 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    font-family: 'Poppins', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-html,body{
-    font-size: 15px;
-    background-color: $color-light-gray;
+html,
+body {
+  font-size: 15px;
+  background-color: $color-light-gray;
 }
-p{
-    font-size: 15px;
-    font-weight: 400;
-    color: $color-grayish-blue;
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: $color-grayish-blue;
 }
-h1,h2,h3,h4{
-    color:$color-dark-blue;
-    font-weight: 200;
+h1,
+h2,
+h3,
+h4 {
+  color: $color-dark-blue;
+  font-weight: 200;
 }
-main{
-    max-width: 1200px;
-    width:100%;
-    margin:0 auto;
-    padding:0 1.8rem;
+h1 {
+  font-size: 2.2rem;
 }
-footer{
-    max-width: 1200px;
-    width:100%;
-    margin: 0 auto;
-    text-align: center;
-    padding:1rem;
-    background-color: $color-blue;
-    p{
-        color:$color-dark-blue;
-    }
-    a{
-        color:$color-light-gray;
-    }
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.8rem;
 }
-#title{
-    text-align: center;
-    max-width: 500px;
-    margin: 0 auto;
+footer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  background-color: $color-blue;
+  p {
+    color: $color-dark-blue;
+  }
+  a {
+    color: $color-light-gray;
+  }
+}
+#title {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 4em;
 }
